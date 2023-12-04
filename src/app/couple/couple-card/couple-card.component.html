@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="bg-white border mb-3 mb-md-0 p-2 position-relative">
+        <img class="img-fluid" [src]="person.img" alt="" />
+        <span
+          class="bg-secondary bottom-0 end-0 font-alt fst-italic m-3 position-absolute px-3 py-2 rounded text-white">
+          {{ person.gender == "Bride" ? "The Bride" : "The Groom" }}
+        </span>
+      </div>
+    </div>
+    <div class="col-md-6 text-center text-md-start">
+        <h5 class="font-alt fw-bold text-uppercase">{{person.name}}</h5>
+        <p class="font-alt fst-italic text-muted">I kind of have a thing for {{ person.gender == "Bride" ? "her" : "him" }} </p>
+        <hr class="border-secondary mx-auto mx-md-0 sep-line">
+        <p class="m-0">{{person.desc}}</p>
+        </div>
+  </div>
+</div>
