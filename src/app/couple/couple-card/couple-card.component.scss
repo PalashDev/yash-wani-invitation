@@ -1,0 +1,28 @@
+.img-outer::after{
+    content: '';
+                     
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid #fff;
+    left: calc(100% - 70px);
+    bottom: calc(0% - 10px);
+    border-radius: 5%;
+  
+    /* background: black; */
+  }
+  
+  .img-outer::before{
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-top: 10px solid #fff;
+    border-left: 10px solid #fff;
+    border-radius: 5%;
+    right: calc(100% - 70px);
+    top: calc(0% - 10px);
+                                        
+  }
+  

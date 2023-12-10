@@ -9,7 +9,8 @@ import { EventComponent } from './event/event.component';
 import { LoveStoryComponent } from './love-story/love-story.component';
 import { PhotosComponent } from './photos/photos.component';
 import { HomeComponent } from './home/home.component';
-import { CoupleCardComponent} from './couple/couple-card/couple-card.component'
+import { CoupleCardComponent} from './couple/couple-card/couple-card.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CoupleCardComponent} from './couple/couple-card/couple-card.component'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

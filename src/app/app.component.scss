@@ -1,3 +1,38 @@
-.spacer {
-    height: 100px;
+
+$line-color:   #c99969;
+
+.page-content{
+    background: #c99969;
+    background: -webkit-linear-gradient(0deg,  #ffffff 0%, #c99969 100%);
+    background: linear-gradient(0deg,  #c99969 0%, #000000c4 100%);
+    // background: radial-gradient(circle, rgba(0,0,0,0.7) 46%, rgba(201,153,105,1) 100%);
+    // background-color: #dec1a5;
+    max-height: 100%;
+    height: 100vh;
+    overflow: auto;
+    z-index: -2;
+}
+
+.fa-heart {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 25px;
+    position: absolute;
+    animation:  heartMove linear 1;
+    top: -10vh;
+    z-index: 0;
+}
+
+.content {
+    position:relative;
+    z-index: 5;
+}
+
+@keyframes heartMove {
+    0%{
+        transform: translateY(-10vh) ;
+    }
+    100%{
+        transform: translateY(110vh) ;
+        color: rgba(111, 138, 145,0.4);
+    }
 }

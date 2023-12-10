@@ -23,6 +23,12 @@ $theme-colors: (
     padding-top: 100px;
 }
 
+.text-color{
+  color: #e5e5e5;
+}
 
+.text-color-mute{
+  color: #cccccc;
+}
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss'; 

@@ -1,10 +1,15 @@
 <div class="page-content">
-  <app-header></app-header>
+  <div class="content">
+      <app-header></app-header>
   <app-home></app-home>
   <!-- <span class="spacer d-block w-100"></span> -->
   <app-couple></app-couple>
   <app-love-story></app-love-story>
   <app-event></app-event>
   <app-photos></app-photos>
+  </div>
+
+  <fa-icon *ngFor="let heart of hearts" class="fa-heart" [icon]="faHeart" [style.left]="heart.left" [style.animationDuration]="heart.animationDuration"></fa-icon>
 
 </div>
+

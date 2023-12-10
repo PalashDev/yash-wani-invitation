@@ -10,19 +10,42 @@
    
    .container{
      max-width: 800px;
-    box-sizing: border-box ;
+     box-sizing: border-box ;
    }
    
-   .img-clip-path::before{
-       content: '';
-       background-image: url(../../assets/img/web-page-asset/clip-path-hero.png);
-       background-repeat: repeat;
-       background-size: cover;
-       background-position: center center;
-       height: 100%;
-       width: 100%;
-       position: absolute;
-   }
+   .outside {
+    position: relative;
+      background: #c99969;
+      -webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+        clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+
+  }
+  
+  .inside {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: url(../../assets/img/clientImages/couple-background.jpg);
+    -webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    
+  }
+  .clip-img{
+    -webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+  }
+//    .img-clip-path::before{
+//        content: '';
+//        background-image: url(../../assets/img/web-page-asset/clip-path-hero.png);
+//        background-repeat: repeat;
+//        background-size: cover;
+//        background-position: center center;
+//        height: 100%;
+//        width: 100%;
+//        position: absolute;
+//    }
    
    .ampersand{
        height: 35px;
@@ -74,4 +97,12 @@
        bottom: 0;
        left: 0;
        transform: rotate(270deg);
+   }
+   .card{
+        background: rgba( 255, 255, 255, 0.15 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 5.5px );
+        -webkit-backdrop-filter: blur( 5.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
    }

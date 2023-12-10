@@ -1,12 +1,13 @@
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <div class="bg-white border mb-3 mb-md-0 p-2 position-relative">
+      <div class=" mb-3 mb-md-0 position-relative">
         <img class="img-fluid" [src]="person.img" alt="" />
         <span
           class="bg-secondary bottom-0 end-0 font-alt fst-italic m-3 position-absolute px-3 py-2 rounded text-white">
           {{ person.gender == "Bride" ? "The Bride" : "The Groom" }}
         </span>
+        <span class="img-outer"></span>
       </div>
     </div>
     <div class="col-md-6 text-center text-md-start">
