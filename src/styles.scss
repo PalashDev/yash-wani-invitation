@@ -35,6 +35,8 @@ $theme-colors: (
 body{
   background: #c99969;
 }
-// s
+html {
+  min-height: 100vh;
+}
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss'; 
