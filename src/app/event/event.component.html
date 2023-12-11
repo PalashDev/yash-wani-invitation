@@ -12,57 +12,10 @@
       </div>
     </div>
     <div class="row event justify-content-center">
-      <div class="col-12 col-md-6 col-lg-4 p-2">
-        <div class="mb-3 card p-3 mx-auto" style="width: 20rem">
-          <h3 class="font-alt fs-4 fw-bold text-uppercase">Mehndi</h3>
-          <span class="border-secondary sep-line"></span>
-          <div class="card-body">
-            <p class="mb-4">
-              The radiant celebration of love at the Mehndi Ceremony, as
-              intricate henna patterns grace the hands and hearts of couples. An
-              evening filled with vibrant colors, rhythmic beats, and joyous
-              laughter awaits, symbolizing the beautiful journey ahead.
-            </p>
-            <div class="align-items-center d-flex mb-3">
-              <span class="icon-svg me-4"
-                ><img src="img/icon-wedding-calendar.svg" alt=""
-              /></span>
-              <span>
-                Sunday - September 13th, 2021<br />
-                09:00am - 10:00am
-              </span>
-            </div>
-
-            <div class="align-items-center d-flex mb-4">
-              <span class="icon-svg me-4"
-                ><img src="img/icon-wedding-arch.svg" alt=""
-              /></span>
-              <span
-                >Jai hanuman Resort<br />
-                Gotri Road, Baroda, Gujarat
-              </span>
-            </div>
-
-            <div class="d-flex">
-              <button
-                type="button"
-                data-bs-toggle="modal"
-                data-bs-target="#how-to-get-there-modal"
-                class="btn fs-9 ls-1 me-3"
-              >
-                How To Get There
-              </button>
-              <a
-                href="https://goo.gl/maps/forfEYxSuKmr3w6e8?coh=178572&amp;entry=tt"
-                class="page-scroll btn border-0 fs-9 ls-1 text-decoration-underline"
-                target="_blank"
-                >View Map</a
-              >
-            </div>
-          </div>
-        </div>
+      <div *ngFor ="let event of events" class="col-12 col-md-6 col-lg-4 p-2">
+         <app-event-detail [Event]="event"></app-event-detail>
       </div>
-      <div class="col-12 col-md-6 col-lg-4 p-2">
+      <!-- <div class="col-12 col-md-6 col-lg-4 p-2">
         <div class="mb-3 card p-3 mx-auto" style="width: 20rem">
           <h3 class="font-alt fs-4 fw-bold text-uppercase">Shadi</h3>
           <span class="border-secondary sep-line"></span>
@@ -211,7 +164,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>

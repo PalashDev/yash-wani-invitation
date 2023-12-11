@@ -4,6 +4,7 @@ export interface Event {
      date : Date;
      time : string;
      place: string;
+     location: string;
      howToReach: string;
      mapsLocation:string
 }

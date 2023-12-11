@@ -1,0 +1,149 @@
+<div class="mb-3 card h-100 p-3 mx-auto" style="width: 20rem">
+  <h3 class="font-alt fs-4 fw-bold text-uppercase text-color">
+    {{ Event.Name }}
+  </h3>
+  <span class="border-secondary sep-line"></span>
+  <div class="card-body h-100%">
+    <p class="mb-4 text-color">
+      {{ Event.Desc }}
+    </p>
+    <div class="align-items-center d-flex mb-3">
+      <span class="icon-svg me-4"
+        ><img src="img/icon-wedding-calendar.svg" alt=""
+      /></span>
+      <span class="text-color">
+        {{ Event.date | date : "fullDate" }}
+        <br />
+        {{ Event.time }}
+      </span>
+    </div>
+
+    <div class="align-items-center d-flex mb-4">
+      <span class="icon-svg me-4"
+        ><img src="img/icon-wedding-arch.svg" alt=""
+      /></span>
+      <span class="text-color">
+        {{ Event.place }}<br />
+        {{ Event.location }}
+      </span>
+    </div>
+  </div>
+  <div class="d-flex my-auto">
+    <button
+      type="button"
+      data-bs-toggle="modal"
+      data-bs-target="#how-to-get-there-modal"
+      class="btn fs-9 ls-1 me-3 text-color-mute"
+    >
+      How To Get There
+    </button>
+    <a
+      href="https://goo.gl/maps/forfEYxSuKmr3w6e8?coh=178572&amp;entry=tt"
+      class="page-scroll btn border-0 fs-9 ls-1 text-decoration-underline text-color-mute"
+      target="_blank"
+      >View Map</a
+    >
+  </div>
+</div>
+
+<div id="how-to-get-there-modal" class="modal fade" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content rounded">
+      <div class="modal-header justify-content-center">
+        <h3 class="modal-title fs-4 font-alt fw-bold text-uppercase">
+          How To Get To The Events
+        </h3>
+        <button
+          type="button"
+          class="end-0 fs-3 me-3 position-absolute"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+
+      <div class="modal-body p-lg-4">
+        <div class="row">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <div class="mb-4 text-center">
+              <h4 class="font-alt fs-5 fw-bold text-primary text-uppercase">
+                The Ceremony
+              </h4>
+              <p class="font-alt fst-italic text-muted">
+                (St. Patrick's Church)
+              </p>
+              <img
+                src="images/the-wedding-event-modal-1.jpg"
+                alt
+                class="img-fluid rounded"
+              />
+            </div>
+
+            <div class="mb-4">
+              <h6 class="fw-bold ls-1 text-uppercase">By Car</h6>
+              <hr class="border-secondary my-2 sep-line" />
+              <p class="m-0">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s.
+              </p>
+            </div>
+
+            <h6 class="fw-bold ls-1 text-uppercase">By Train</h6>
+            <hr class="border-secondary my-2 sep-line" />
+            <p class="m-0">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="mb-4 text-center">
+              <h4 class="font-alt fs-5 fw-bold text-primary text-uppercase">
+                The Reception
+              </h4>
+              <p class="font-alt fst-italic text-muted">
+                (The Mayflower Hotel)
+              </p>
+              <img
+                src="images/the-wedding-event-modal-2.jpg"
+                alt
+                class="img-fluid rounded"
+              />
+            </div>
+
+            <div class="mb-4">
+              <h6 class="fw-bold ls-1 text-uppercase">By Car</h6>
+              <hr class="border-secondary my-2 sep-line" />
+              <p class="m-0">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s.
+              </p>
+            </div>
+
+            <h6 class="fw-bold ls-1 text-uppercase">By Train</h6>
+            <hr class="border-secondary my-2 sep-line" />
+            <p class="m-0">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer d-sm-none">
+        <button
+          class="btn fs-9 w-100"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        >
+          Okay, I get it!
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

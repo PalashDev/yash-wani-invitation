@@ -10,7 +10,8 @@ import { LoveStoryComponent } from './love-story/love-story.component';
 import { PhotosComponent } from './photos/photos.component';
 import { HomeComponent } from './home/home.component';
 import { CoupleCardComponent} from './couple/couple-card/couple-card.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { EventDetailComponent } from './event/event-detail/event-detail.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
     LoveStoryComponent,
     PhotosComponent,
     HomeComponent,
-    CoupleCardComponent
+    CoupleCardComponent,
+    EventDetailComponent
   ],
   imports: [
     BrowserModule,
