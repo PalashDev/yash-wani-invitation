@@ -18,7 +18,7 @@ $line-color:   #c99969;
     font-size: 25px;
     position: absolute;
     animation:  heartMove linear 1;
-    top: -10vh;
+    top: -10dvh;
     z-index: 0;
 }
 
@@ -29,10 +29,10 @@ $line-color:   #c99969;
 
 @keyframes heartMove {
     0%{
-        transform: translateY(-10vh) ;
+        transform: translateY(-10dvh) ;
     }
     100%{
-        transform: translateY(100vh) ;
+        transform: translateY(100dvh) ;
         color: rgba(111, 138, 145,0.4);
     }
 }

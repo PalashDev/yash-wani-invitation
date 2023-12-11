@@ -16,8 +16,8 @@ export class CoupleComponent {
   }
 
   bride:person =  {
-    name:"Kariki",
-    desc:"I am just crazy about Dilan. He has a truly amazing heart. I am so incredibly blessed and excited to spend everyday for the rest of my life with my best friend.",
+    name:"Kartiki",
+    desc:"I am just crazy about Yash. He has a truly amazing heart. I am so incredibly blessed and excited to spend everyday for the rest of my life with my best friend.",
     gender:"Bride",
     img:"bride-hero.jpg"
   }
