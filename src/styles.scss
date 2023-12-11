@@ -2,6 +2,7 @@
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
 
 
  $primary:       #6d8a91;
@@ -30,5 +31,6 @@ $theme-colors: (
 .text-color-mute{
   color: #cccccc;
 }
+
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss'; 

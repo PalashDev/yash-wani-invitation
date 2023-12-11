@@ -18,7 +18,7 @@ export class AppComponent  implements OnInit {
 
   createHeart() {
     const newHeart: Heart = {
-      left: `${Math.random() * 100}vw`,
+      left: this.setLeftValue(),
       animationDuration: `${Math.random() * 3 + 2}s`,
     };
 
@@ -34,6 +34,17 @@ export class AppComponent  implements OnInit {
       this.hearts.shift();
     }
   }
+  setLeftValue()
+  {
+    let left = Math.random() * 100
+    if(left> 90)
+    { 
+      left = left - 10;
+    }
+    
+    return left +'vw';
+    
+   }
 }
 
 interface Heart {

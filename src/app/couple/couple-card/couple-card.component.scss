@@ -4,8 +4,8 @@
     position: absolute;
     height: 80px;
     width: 80px;
-    border-bottom: 10px solid #fff;
-    border-right: 10px solid #fff;
+    border-bottom: 10px solid #00000077;
+    border-right: 10px solid #00000077;
     left: calc(100% - 70px);
     bottom: calc(0% - 10px);
     border-radius: 5%;
@@ -18,11 +18,19 @@
     position: absolute;
     height: 80px;
     width: 80px;
-    border-top: 10px solid #fff;
-    border-left: 10px solid #fff;
+    border-top: 10px solid #00000077;
+    border-left: 10px solid #00000077;
     border-radius: 5%;
     right: calc(100% - 70px);
     top: calc(0% - 10px);
                                         
   }
   
+  .bor-style{
+    border : 3px solid #000
+  }
+
+
+// Usage
+
+// Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
