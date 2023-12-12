@@ -7,4 +7,5 @@ export interface Event {
      location: string;
      howToReach: string;
      mapsLocation:string
+     iconUrl :string;
 }

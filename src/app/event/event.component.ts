@@ -17,7 +17,8 @@ export class EventComponent {
       place:"River side Resort",
       location:'Nandurbar , Maharashtra',
       howToReach :'',
-      mapsLocation:''
+      mapsLocation:'https://maps.app.goo.gl/HyXbtvCiqgHA7J4A7',
+      iconUrl :'haldi.png'
     },
     {
       Name : 'Mehndi',
@@ -28,7 +29,8 @@ export class EventComponent {
       place:"River side Resort",
       location:'Nandurbar , Maharashtra',
       howToReach :'',
-      mapsLocation:''
+      mapsLocation:'https://maps.app.goo.gl/HyXbtvCiqgHA7J4A7',
+      iconUrl :'mehndi.png'
     },
     
     {
@@ -40,7 +42,9 @@ export class EventComponent {
       place:"River side Resort",
       location:'Nandurbar , Maharashtra',
       howToReach :'',
-      mapsLocation:''
+      mapsLocation:'https://maps.app.goo.gl/HyXbtvCiqgHA7J4A7',
+      iconUrl :'agni-pooja.png'
+
     },
     {
       Name : 'Reception',
@@ -50,7 +54,9 @@ export class EventComponent {
       place:"River side Resort",
       location:'Baroda, Gujarat',
       howToReach :'',
-      mapsLocation:''
+      mapsLocation:'',
+      iconUrl :'reception.png'
+
     },
   ]
 

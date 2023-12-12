@@ -11,7 +11,9 @@ import { PhotosComponent } from './photos/photos.component';
 import { HomeComponent } from './home/home.component';
 import { CoupleCardComponent} from './couple/couple-card/couple-card.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { EventDetailComponent } from './event/event-detail/event-detail.component'
+import { EventDetailComponent } from './event/event-detail/event-detail.component';
+import { DialogContentComponent } from './event/dialog-content/dialog-content.component'
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -23,12 +25,14 @@ import { EventDetailComponent } from './event/event-detail/event-detail.componen
     PhotosComponent,
     HomeComponent,
     CoupleCardComponent,
-    EventDetailComponent
+    EventDetailComponent,
+    DialogContentComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
