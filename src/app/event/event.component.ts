@@ -14,10 +14,10 @@ export class EventComponent {
       Desc:`Get ready for a burst of color and love! Join us in celebrating the Haldi ceremony. As the golden hues of turmeric adorn the bride and groom, let's immerse this day in laughter, blessings, and joy. Your presence will add a touch of warmth to this auspicious and colorful prelude to their wedding day.`,
       date:  new Date('Feb 02, 2024 '),
       time: "3:00 PM onwards",
-      place:"River side Resort",
-      location:'Nandurbar , Maharashtra',
+      place:"Balaji Residency",
+      location:'shahade , Maharashtra',
       howToReach :'',
-      mapsLocation:'https://maps.app.goo.gl/HyXbtvCiqgHA7J4A7',
+      mapsLocation:'https://maps.app.goo.gl/Jmw1Pw3XKxDqZKZr8',
       iconUrl :'haldi.png'
     },
     {
@@ -26,10 +26,10 @@ export class EventComponent {
             An evening filled with vibrant colors, rhythmic beats, and joyous laughter awaits, symbolizing the beautiful journey ahead.`,
       date:  new Date('Feb 02, 2024 '),
       time: "8:00 PM onwards",
-      place:"River side Resort",
-      location:'Nandurbar , Maharashtra',
+      place:"Balaji Residency ",
+      location:'shahade, Maharashtra',
       howToReach :'',
-      mapsLocation:'https://maps.app.goo.gl/HyXbtvCiqgHA7J4A7',
+      mapsLocation:'https://maps.app.goo.gl/Jmw1Pw3XKxDqZKZr8',
       iconUrl :'mehndi.png'
     },
     
@@ -39,10 +39,10 @@ export class EventComponent {
        a celebration of unity, where promises are exchanged, and a lifetime commitment is sealed.`,
       date:  new Date('Feb 03, 2024 '),
       time: "5:00 PM onwards",
-      place:"River side Resort",
-      location:'Nandurbar , Maharashtra',
+      place:"Balaji Residency ",
+      location:'shahade , Maharashtra',
       howToReach :'',
-      mapsLocation:'https://maps.app.goo.gl/HyXbtvCiqgHA7J4A7',
+      mapsLocation:'https://maps.app.goo.gl/Jmw1Pw3XKxDqZKZr8',
       iconUrl :'agni-pooja.png'
 
     },
