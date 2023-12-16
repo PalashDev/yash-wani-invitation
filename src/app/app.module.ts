@@ -14,6 +14,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { EventDetailComponent } from './event/event-detail/event-detail.component';
 import { DialogContentComponent } from './event/dialog-content/dialog-content.component'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { StoryComponent } from './love-story/story/story.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     CoupleCardComponent,
     EventDetailComponent,
     DialogContentComponent,
+    StoryComponent,
   ],
   imports: [
     BrowserModule,

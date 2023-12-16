@@ -1,0 +1,20 @@
+<div class="card pb-3 mx-md-4">
+
+    <div class="align-items-center g-0 justify-content-center row ">
+        <div class="col-sm-5 col-md-6 col-lg-4 mb-3  d-flex  justify-content-center">
+            <img [src]="'../../assets/img/clientImages/'+story.imageSrc" alt
+                class="img-fluid my-2 my- border-0 border-dark rounded-3" />
+        </div>
+        <div class="col-sm-7  col-md-6 col-lg-8 text-center text-lg-start d-flex flex-column justify-content-between">
+            <div class="text-header">
+                <h4 class="font-alt text-color text text-center">{{story.title}}</h4>
+                <hr class="border-secondary mx-auto mx-lg-0 sep-line text-color-mute" />
+            </div>
+            <div class="text-body">
+                <p class="text-color-mute" *ngFor="let content of story.p">
+                    {{content}}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

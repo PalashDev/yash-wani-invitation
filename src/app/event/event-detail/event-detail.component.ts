@@ -16,7 +16,6 @@ export class EventDetailComponent {
   constructor(private modalService: NgbModal) {}
 
   onClickhow(){
-    console.log('fdsfs')
     const modalRef = this.modalService.open(DialogContentComponent, { size: 'xl' });
     
   }
