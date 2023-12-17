@@ -15,6 +15,7 @@ import { EventDetailComponent } from './event/event-detail/event-detail.componen
 import { DialogContentComponent } from './event/dialog-content/dialog-content.component'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StoryComponent } from './love-story/story/story.component';
+import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { StoryComponent } from './love-story/story/story.component';
     EventDetailComponent,
     DialogContentComponent,
     StoryComponent,
+    CountdownTimerComponent,
   ],
   imports: [
     BrowserModule,

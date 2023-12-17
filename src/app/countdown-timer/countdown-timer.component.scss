@@ -1,0 +1,213 @@
+$color-primary: #c9b375;
+$color-primary-dark: #a18f5d;
+$color-primary-light: rgba(221, 196, 128, 0.4);
+$color-primary-bright: #f1cc66;
+
+$color-grey-light: #aaaaaa;
+$color-grey-dark: #777;
+$color-grey-dark2: rgb(75, 75, 75);
+$color-black: rgb(56, 56, 56);
+$color-white: #fff;
+
+$color-light-blue: #575594;
+$color-dark-blue: #1c1a59;
+$color-dark-blue2: #0a093b;
+// MEDIA QUERIES
+$tablet: 480px;
+$desktop: 769px;
+
+::-moz-selection {
+  background-color: #4b4b4b;
+  color: #c9b375;
+}
+
+::selection {
+  background-color: #4b4b4b;
+  color: #c9b375;
+}
+
+body {
+  line-height: 1.7;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  color: #777;
+  background-color: #ebebeb;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23f7f7f7' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
+  overflow-x: hidden;
+}
+
+.intro-title {
+  height: 35vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Lobster Two", cursive;
+}
+.heading-secondary {
+  text-align: center;
+  color: #c9b375;
+  text-transform: uppercase;
+  font-family: serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: #fff;
+  font-size: 2rem;
+  padding: 3rem 1rem 2rem;
+  margin-bottom: -5rem;
+}
+
+.names__and-sign {
+  font-size: 4rem;
+  color: #c9b375;
+}
+
+@media (min-width: 769px) {
+  .heading-secondary {
+    font-size: 2.6rem;
+  }
+  .names {
+    font-size: 5rem;
+}
+.names__name {
+  font-size: 5rem;
+}
+.names__and-sign {
+  font-size: 8rem;
+ }
+}
+
+.names {
+    text-transform: capitalize;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #4b4b4b;
+    line-height: 1;
+    text-align: center;
+  }
+
+@media (min-width: 992px) {
+    .heading-secondary {
+      font-size: 2.6rem;
+    }
+    .names {
+        font-size: 6rem;
+    }
+    .names__name {
+      font-size: 6rem;
+    }
+    .names__and-sign {
+      font-size: 10rem;
+     }
+  }
+
+
+.countdown-container {
+  text-align: center;
+  padding: 0.7rem;
+}
+
+.date-text {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin: 2rem 1rem;
+  font-family: serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  display: inline-block;
+  position: relative;
+}
+
+.date-text::before, .date-text::after {
+  content: "";
+  height: 1px;
+  background-color: #aaaaaa;
+  position: absolute;
+  margin: 0 1rem;
+}
+
+.date-text::before {
+  left: -100%;
+  top: 50%;
+  width: 90%;
+}
+
+.date-text::after {
+  right: -100%;
+  top: 50%;
+  width: 90%;
+}
+
+.countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+//   gap: 5rem;
+}
+
+.countdown__item {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(221, 196, 128, 0.4)), to(rgba(221, 196, 128, 0.1)));
+  background-image: linear-gradient(to top, rgba(221, 196, 128, 0.4), rgba(221, 196, 128, 0.1));
+  border-radius: 10%;
+//   width: 20rem;
+  font-family: "Lobster Two", cursive;
+  line-height: 1.2;
+}
+
+.countdown__number {
+  text-shadow: 2px 2px 0 #a18f5d;
+  font-weight: 900;
+  color: white;
+  font-size: 2rem;
+}
+
+.countdown__description {
+  font-size: 2rem;
+  color: #ffffff7c;
+}
+
+@-webkit-keyframes moveInLeft {
+  from {
+    -webkit-transform: translateX(-10rem);
+            transform: translateX(-10rem);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes moveInLeft {
+  from {
+    -webkit-transform: translateX(-10rem);
+            transform: translateX(-10rem);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+
+
+
+
+
+/*# sourceMappingURL=main.css.map */

@@ -51,5 +51,9 @@ html {
   color: #cccccc !important;
 }
 
+.text-font-body
+{
+  font-family: "Lobster Two", cursive;
+}
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
