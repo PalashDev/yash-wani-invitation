@@ -8,4 +8,5 @@ export interface Event {
      howToReach: string;
      mapsLocation:string
      iconUrl :string;
+     img: string;
 }

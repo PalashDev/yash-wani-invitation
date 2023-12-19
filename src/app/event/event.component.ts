@@ -18,10 +18,11 @@ export class EventComponent {
       location:'shahade , Maharashtra',
       howToReach :'',
       mapsLocation:'https://maps.app.goo.gl/Jmw1Pw3XKxDqZKZr8',
-      iconUrl :'haldi.png'
+      iconUrl :'haldi.png',
+      img:'haldi-img.avif'
     },
     {
-      Name : 'Mehndi',
+      Name : 'Sangeet',
       Desc:`The radiant celebration of love at the Mehndi Ceremony, as intricate henna patterns grace the hands and hearts of couples.
             An evening filled with vibrant colors, rhythmic beats, and joyous laughter awaits, symbolizing the beautiful journey ahead.`,
       date:  new Date('Feb 02, 2024 '),
@@ -30,7 +31,9 @@ export class EventComponent {
       location:'shahade, Maharashtra',
       howToReach :'',
       mapsLocation:'https://maps.app.goo.gl/Jmw1Pw3XKxDqZKZr8',
-      iconUrl :'mehndi.png'
+      iconUrl :'mehndi.png',
+      img:'sangeet-img.jpg'
+
     },
     
     {
@@ -43,7 +46,9 @@ export class EventComponent {
       location:'shahade , Maharashtra',
       howToReach :'',
       mapsLocation:'https://maps.app.goo.gl/Jmw1Pw3XKxDqZKZr8',
-      iconUrl :'agni-pooja.png'
+      iconUrl :'agni-pooja.png',
+      img:'wedding-img.jpg'
+
 
     },
     {
@@ -55,7 +60,9 @@ export class EventComponent {
       location:'Baroda, Gujarat',
       howToReach :'',
       mapsLocation:'',
-      iconUrl :'reception.png'
+      iconUrl :'reception.png',
+      img:'reception-img.jpg'
+
 
     },
   ]
