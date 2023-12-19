@@ -6,7 +6,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
   styleUrls: ['./countdown-timer.component.scss']
 })
 export class CountdownTimerComponent implements OnInit, OnDestroy {
-  marraigeDate =  new Date(2024,2,4);
+  marraigeDate =  new Date(2024,1,4);
   weeks :number = 0;
   days:number = 0;
   hours:number= 0;

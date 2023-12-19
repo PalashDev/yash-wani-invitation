@@ -1,7 +1,7 @@
 
-$hexagon-width: 250px;
+$hexagon-width: 200px;
 $hexagon-height: $hexagon-width*.55;
-$hexagon-margin: 25px;
+$hexagon-margin: 22px;
 $hexagon-border-color: #c99969;
 $hexagon-border-color--hover: #6d8a91;
 $hexagon-image-color: #000;
@@ -80,7 +80,8 @@ $viewport-thereshold: $hexagon-width + $hexagon-margin;
       }
     }
   }
-  
+
+
   @media (max-width:#{2*$viewport-thereshold}){
     .honeycomb-cell {
       margin: #{$hexagon-margin/2 + $hexagon-height/2} $hexagon-margin;

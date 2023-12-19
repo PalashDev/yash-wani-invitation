@@ -127,19 +127,6 @@ body {
   position: relative;
 }
 
-.date-text::before, .date-text::after {
-  content: "";
-  height: 1px;
-  background-color: #aaaaaa;
-  position: absolute;
-  margin: 0 1rem;
-}
-
-.date-text::before {
-  left: -100%;
-  top: 50%;
-  width: 90%;
-}
 
 .date-text::after {
   right: -100%;
