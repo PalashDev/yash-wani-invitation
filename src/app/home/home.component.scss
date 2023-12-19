@@ -1,13 +1,25 @@
 .hero-section {
-    background: rgba(0,0,0,0.5) url(../../assets/img/clientImages/couple-background.jpg);
+    background: rgba(0,0,0,0.5) url(../../assets/img/clientImages/couple-background.jpeg) no-repeat center center fixed;
     background-blend-mode: darken;
     background-repeat: no-repeat;
-    background-position-x: 70%;
-    background-position-y: -10%;
+    background-size: cover; 
+    background-position-x: -550px;
    }
+  
+  @media (min-width: 750px) {
+    .hero-section {
+    background-position-x: -400px;
+    }
+  }
+  @media (min-width: 1100px) {
+    .hero-section {
+    background-position-x: -50px;
+    }
+  }
    
-   
-   
+   .imp-text-color{
+    color:  #c99969;
+   }
    .container{
      max-width: 800px;
      box-sizing: border-box ;
@@ -27,7 +39,7 @@
     left: 10px;
     right: 10px;
     bottom: 10px;
-    background: url(../../assets/img/clientImages/couple-background.jpg);
+    background: url(../../assets/img/clientImages/couple-portrait.jpeg);
     -webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
     clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
     

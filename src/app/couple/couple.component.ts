@@ -10,14 +10,14 @@ export class CoupleComponent {
 
   groom:person =  {
     name:"Yash Wani",
-    desc:"kartiki means so much to me and I can't believe she is actually going to marry me. I'm so excited to spend the rest of my life with her. Kartiki is perfect for me.",
+    desc:" She simplicity, elegance & strong value system inspires me. Looking forward to a lifetime of love, adventure, and shared laughter with this remarkable women!”",
     gender:"Groom",
     img:"groom-hero.jpg"
   }
 
   bride:person =  {
     name:"Kartiki",
-    desc:"I am just crazy about Yash. He has a truly amazing heart. I am so incredibly blessed and excited to spend everyday for the rest of my life with my best friend.",
+    desc:"“We share a strong bond rooted in mutual respect & shared dreams. Eager to embark on this new chapter, knowing that with him, every day will be an adventure filled with love, companionship, and the strength of a friendship that continues to grow.”",
     gender:"Bride",
     img:"bride-hero.jpg"
   }

@@ -51,9 +51,47 @@ html {
   color: #cccccc !important;
 }
 
-.text-font-body
+.text-font-cursive
 {
   font-family: "Lobster Two", cursive;
+}
+
+blockquote::before {
+  content: open-quote;
+}
+blockquote::after {
+  content: close-quote;
+}
+blockquote {
+  quotes: "“" "”" "‘" "’";
+}
+blockquote::before,
+blockquote::after {
+  animation: dancing 1s linear infinite;
+  display: inline-block;
+  transform: rotate(13deg);
+}
+
+@keyframes dancing {
+  0% {
+    transform: rotate(13deg) scale(2);
+  }
+
+  25% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-13deg) scale(2);
+  }
+
+  75% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(13deg) scale(2);
+  }
 }
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
