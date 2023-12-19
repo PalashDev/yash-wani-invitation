@@ -9,8 +9,8 @@ import { person } from 'src/model/person.model';
 export class CoupleComponent {
 
   groom:person =  {
-    name:"Yash Wani",
-    desc:" She simplicity, elegance & strong value system inspires me. Looking forward to a lifetime of love, adventure, and shared laughter with this remarkable women!”",
+    name:"Yash",
+    desc:"“Her simplicity, elegance & strong value system inspires me. Looking forward to a lifetime of love, adventure, and shared laughter with this remarkable women!”",
     gender:"Groom",
     img:"groom-hero.jpg"
   }
