@@ -47,7 +47,7 @@ export class EventComponent {
       howToReach :'',
       mapsLocation:'https://maps.app.goo.gl/Jmw1Pw3XKxDqZKZr8',
       iconUrl :'agni-pooja.png',
-      img:'wedding-img.jpg'
+      img:'wedding-img.jpeg'
 
 
     },
