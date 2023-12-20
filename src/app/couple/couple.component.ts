@@ -17,7 +17,7 @@ export class CoupleComponent {
 
   bride:person =  {
     name:"Kartiki",
-    desc:"“We share a strong bond rooted in mutual respect & shared dreams. Eager to embark on this new chapter, knowing that with him, every day will be an adventure filled with love, companionship, and the strength of a friendship that continues to grow.”",
+    desc:"“We share a strong bond rooted in mutual respect & shared dreams. Eager to embark on this new chapter, knowing that with him, every day will be an adventure filled with love, companionship, and the strength of a friendship that continues to grow”",
     gender:"Bride",
     img:"bride-hero.jpg"
   }
