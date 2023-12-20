@@ -54,7 +54,7 @@ export class EventComponent {
     {
       Name : 'Reception',
       Desc:`Join us for an evening of love, laughter, and unforgettable moments. Your presence will add warmth to this reception, making it a cherished part of our joyous festivities. Looking forward to creating lasting memories together!`,
-      date:  new Date('Feb 10, 2024 '),
+      date:  new Date('Feb 7, 2024 '),
       time: "7:00 PM onwards",
       place:"Deep Party Plot",
       location:'Padra Road, Atladara, Vadodara',
