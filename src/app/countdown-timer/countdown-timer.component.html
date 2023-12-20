@@ -1,57 +1,49 @@
-<h1 class="heading-secondary" >Wedding day countdown </h1>
-<div class="intro-title">
+<div class="container min-vh-100 padding-section" id="count-down">
+  <h1 class="heading-secondary">Wedding day countdown</h1>
+  <div class="intro-title">
     <p class="names">
-        <span class="names__name names__name--1"> Yash </span>
-        <span class="names__and-sign">  & </span>
-        <span class="names__name names__name--2"> Kartiki </span>
+      <span class="names__name names__name--1"> Yash </span>
+      <span class="names__and-sign"> & </span>
+      <span class="names__name names__name--2"> Kartiki </span>
     </p>
-</div>
+  </div>
 
-<div class="countdown-container mb-5">
+  <div class="countdown-container mb-5">
     <h2 class="date-text">
-        <span class="date-text__inner">{{dateString}}</span>
+      <span class="date-text__inner">{{ dateString }}</span>
     </h2>
 
-    <div class="countdown d-flex ">
-        <div class="countdown__item col-3 m-1 p-lg-3" id="weeks">
-            <div class="countdown__number">
-               {{weeks}}
-            </div>
-            <div class="countdown__description">
-                Weeks
-            </div>
+    <div class="countdown d-flex">
+      <div class="countdown__item col-3 m-1 p-lg-3" id="weeks">
+        <div class="countdown__number">
+          {{ weeks }}
         </div>
-        <div class="countdown__item col-3  m-1 p-lg-3" id="days">
-            <div class="countdown__number">
-                {{days}}
-            </div>
-            <div class="countdown__description">
-                Days
-            </div> 
+        <div class="countdown__description">Weeks</div>
+      </div>
+      <div class="countdown__item col-3 m-1 p-lg-3" id="days">
+        <div class="countdown__number">
+          {{ days }}
         </div>
-        <div class="countdown__item col-3  m-1 p-lg-3" id="hours">
-            <div class="countdown__number">
-                {{hours}}
-            </div>
-            <div class="countdown__description">
-                Hours
-            </div> 
+        <div class="countdown__description">Days</div>
+      </div>
+      <div class="countdown__item col-3 m-1 p-lg-3" id="hours">
+        <div class="countdown__number">
+          {{ hours }}
         </div>
-        <div class="countdown__item col-3  m-1 p-lg-3" id="minutes">
-            <div class="countdown__number">
-                {{minutes}}
-            </div>
-            <div class="countdown__description">
-                Mins
-            </div>
+        <div class="countdown__description">Hours</div>
+      </div>
+      <div class="countdown__item col-3 m-1 p-lg-3" id="minutes">
+        <div class="countdown__number">
+          {{ minutes }}
         </div>
-        <div class="countdown__item col-3  m-1 p-lg-3"  id="seconds">
-            <div class="countdown__number">
-                {{seconds}}
-            </div>
-            <div class="countdown__description">
-                Secs
-            </div>
+        <div class="countdown__description">Mins</div>
+      </div>
+      <div class="countdown__item col-3 m-1 p-lg-3" id="seconds">
+        <div class="countdown__number">
+          {{ seconds }}
         </div>
+        <div class="countdown__description">Secs</div>
+      </div>
     </div>
+  </div>
 </div>
