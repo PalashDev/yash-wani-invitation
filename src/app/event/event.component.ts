@@ -12,7 +12,7 @@ export class EventComponent {
     {
       Name : 'Halki si Haldi',
       Desc:`Get ready for a burst of color and love! Join us in celebrating the Haldi ceremony. As the golden hues of turmeric adorn the bride and groom, let's immerse this day in laughter, blessings, and joy. Your presence will add a touch of warmth to this auspicious and colorful prelude to their wedding day.`,
-      date:  new Date('Feb 02, 2024 '),
+      date:  new Date('Feb 03, 2024 '),
       time: "3:00 PM onwards",
       place:"Balaji Residency",
       location:'Shahade , Maharashtra',
@@ -25,7 +25,7 @@ export class EventComponent {
       Name : 'Sangeet – Bling Binge',
       Desc:`The radiant celebration of love at the Mehndi Ceremony, as intricate henna patterns grace the hands and hearts of couples.
             An evening filled with vibrant colors, rhythmic beats, and joyous laughter awaits, symbolizing the beautiful journey ahead.`,
-      date:  new Date('Feb 02, 2024 '),
+      date:  new Date('Feb 03, 2024 '),
       time: "7:30 PM onwards",
       place:"Balaji Residency ",
       location:'Shahade, Maharashtra',
