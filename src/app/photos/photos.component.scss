@@ -1,5 +1,5 @@
 
-$hexagon-width: 200px;
+$hexagon-width: 180px;
 $hexagon-height: $hexagon-width*.55;
 $hexagon-margin: 22px;
 $hexagon-border-color: #c99969;
@@ -8,7 +8,13 @@ $hexagon-image-color: #000;
 $honeycomb-max-width: 1200px;
 $viewport-thereshold: $hexagon-width + $hexagon-margin;
 
+@media (min-width: 900px){
+  $hexagon-width: 200px;
+}
 
+.container{
+  max-width: 100%;
+}
 .honeycomb {
     display: flex;
     flex-wrap: wrap;
